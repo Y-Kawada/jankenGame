@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="janken.css">
+<title>じゃんけん</title>
+</head>
+<body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="janken.js"></script>
+<h3>じゃんけん</h3>
+<hr>
+<button id="gu"onclick="janken(0)"><img src="image/gu.png" alt="グー" id="gu_img"></button><!--
+ --><button id="choki"onclick="janken(1)"><img src="image/choki.png" alt="チョキ" id="choki_img"></button><!--
+ --><button id="pa"onclick="janken(2)"><img src="image/pa.png" alt="パー" id="pa_img"></button>
+<b id="vs" style="display:none">vs</b>
+<img src="" id="hand2">
+<hr>
+<h2 id="status"></h2>
+<div id="reload"></div>
+
+</body>
+</html>
